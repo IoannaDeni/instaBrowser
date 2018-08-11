@@ -39,10 +39,11 @@ class DetailsViewController: UIViewController {
                 timeLabel.text = "On " + timeStr
             }
             
-            //self.performSegue(withIdentifier: "detailSegue", sender: self)
-            
             detailImageView.loadInBackground()
         }
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
     }
 

@@ -81,6 +81,16 @@ class HomeViewController: UIViewController,UITableViewDelegate, UITableViewDataS
         NotificationCenter.default.post(name: NSNotification.Name("didLogout"), object: nil)
         
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell){
+            let post = posts[indexPath.row]
+            let detailViewController = segue.destination as! DetailsViewController
+            detailViewController.posts=post;
+        }
+    }
     /*
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
