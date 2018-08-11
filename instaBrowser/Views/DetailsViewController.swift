@@ -42,10 +42,6 @@ class DetailsViewController: UIViewController {
             detailImageView.loadInBackground()
         }
     }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

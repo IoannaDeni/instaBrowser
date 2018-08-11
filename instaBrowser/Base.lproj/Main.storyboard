@@ -103,7 +103,7 @@
                                         <connections>
                                             <outlet property="captionLabel" destination="asq-Yo-olz" id="A7R-er-yNL"/>
                                             <outlet property="imageViewLabel" destination="h3O-lA-rZt" id="m9R-CF-gu5"/>
-                                            <segue destination="r5M-h1-1m3" kind="push" id="MH9-uQ-hSN"/>
+                                            <segue destination="r5M-h1-1m3" kind="push" identifier="details" id="MH9-uQ-hSN"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -140,7 +140,7 @@
         <!--Details View Controller-->
         <scene sceneID="sjg-3R-XXd">
             <objects>
-                <viewController id="r5M-h1-1m3" customClass="DetailsViewController" customModule="instaBrowser" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailsView" id="r5M-h1-1m3" customClass="DetailsViewController" customModule="instaBrowser" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tPW-iS-Cjj"/>
                         <viewControllerLayoutGuide type="bottom" id="lGE-vs-SV5"/>
