@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B9C4B27D8C8DEBEA39B7C078F7C607F4"
+               BlueprintIdentifier = "50C2C56C56135F31AC4997FF840FE9D8"
                BuildableName = "Pods_instaBrowser.framework"
                BlueprintName = "Pods-instaBrowser"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B9C4B27D8C8DEBEA39B7C078F7C607F4"
+            BlueprintIdentifier = "50C2C56C56135F31AC4997FF840FE9D8"
             BuildableName = "Pods_instaBrowser.framework"
             BlueprintName = "Pods-instaBrowser"
             ReferencedContainer = "container:Pods.xcodeproj">

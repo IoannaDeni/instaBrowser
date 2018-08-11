@@ -7,7 +7,25 @@
 		<key>instaBrowser.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>8</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>B4184661211D2B4400556341</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B4184675211D2B4600556341</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B4184680211D2B4600556341</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

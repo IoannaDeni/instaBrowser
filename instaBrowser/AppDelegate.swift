@@ -13,7 +13,7 @@ import Parse
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -28,6 +28,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.server = "https://warm-cliffs-50933.herokuapp.com/parse"
             })
         )
+        
+        NotificationCenter.default.addObserver(forName: Notification.Name("didLogout"), object: nil, queue: OperationQueue.main) { (Notification) in
+            let storyBoard = UIStoryboard(name : "Main", bundle: nil)
+            self.window?.rootViewController = storyBoard.instantiateInitialViewController()        }
+        
+        // check if user is logged in.
+        if PFUser.current() != nil {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            //view controller currently being set in Storyboard as default will be overridden
+            window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "HomeNavigationController")
+        }
         return true
     }
 

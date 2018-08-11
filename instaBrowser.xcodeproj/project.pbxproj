@@ -9,14 +9,18 @@
 /* Begin PBXBuildFile section */
 		31C1ABABB54C9E40D55793C6 /* Pods_instaBrowserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A3147903B5BEF78BA29720 /* Pods_instaBrowserUITests.framework */; };
 		634B3CB5D4C917B1863B2C17 /* Pods_instaBrowserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55548970D77F28D19425B26C /* Pods_instaBrowserTests.framework */; };
+		B409BCCA211E6BA300248A8C /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B409BCC9211E6BA300248A8C /* HomeTableViewCell.swift */; };
+		B409BCCC211E707000248A8C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B409BCCB211E707000248A8C /* HomeViewController.swift */; };
+		B409BCD1211E769600248A8C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B409BCD0211E769600248A8C /* Post.swift */; };
 		B4184666211D2B4400556341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4184665211D2B4400556341 /* AppDelegate.swift */; };
-		B4184668211D2B4400556341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4184667211D2B4400556341 /* ViewController.swift */; };
 		B418466B211D2B4400556341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4184669211D2B4400556341 /* Main.storyboard */; };
 		B418466D211D2B4600556341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B418466C211D2B4600556341 /* Assets.xcassets */; };
 		B4184670211D2B4600556341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B418466E211D2B4600556341 /* LaunchScreen.storyboard */; };
 		B418467B211D2B4600556341 /* instaBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B418467A211D2B4600556341 /* instaBrowserTests.swift */; };
 		B4184686211D2B4600556341 /* instaBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4184685211D2B4600556341 /* instaBrowserUITests.swift */; };
 		B4184695211D333C00556341 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4184694211D333C00556341 /* LogInViewController.swift */; };
+		B43A1293211E890000D5CFEA /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43A1292211E890000D5CFEA /* PhotoViewController.swift */; };
+		B43A1295211E892B00D5CFEA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43A1294211E892B00D5CFEA /* DetailsViewController.swift */; };
 		B4C0FA21D5D69B31FB991003 /* Pods_instaBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BC0176F89D4BEC47173A884 /* Pods_instaBrowser.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,9 +49,11 @@
 		6973B829794B89B98B96B96E /* Pods-instaBrowserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaBrowserTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-instaBrowserTests/Pods-instaBrowserTests.release.xcconfig"; sourceTree = "<group>"; };
 		8C77E2990E11E48D9DB83D1A /* Pods-instaBrowserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaBrowserUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-instaBrowserUITests/Pods-instaBrowserUITests.release.xcconfig"; sourceTree = "<group>"; };
 		96A3147903B5BEF78BA29720 /* Pods_instaBrowserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instaBrowserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B409BCC9211E6BA300248A8C /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		B409BCCB211E707000248A8C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B409BCD0211E769600248A8C /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		B4184662211D2B4400556341 /* instaBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instaBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4184665211D2B4400556341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B4184667211D2B4400556341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B418466A211D2B4400556341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B418466C211D2B4600556341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B418466F211D2B4600556341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +65,8 @@
 		B4184685211D2B4600556341 /* instaBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instaBrowserUITests.swift; sourceTree = "<group>"; };
 		B4184687211D2B4600556341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4184694211D333C00556341 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		B43A1292211E890000D5CFEA /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		B43A1294211E892B00D5CFEA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		E032ED59769C2502D1623683 /* Pods-instaBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instaBrowser/Pods-instaBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		EC328F2B77DD0BF2FBF88920 /* Pods-instaBrowserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaBrowserUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instaBrowserUITests/Pods-instaBrowserUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +112,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B409BCC8211E683200248A8C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B409BCC9211E6BA300248A8C /* HomeTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B409BCCD211E757200248A8C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B409BCD0211E769600248A8C /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B4184659211D2B4400556341 = {
 			isa = PBXGroup;
 			children = (
@@ -129,9 +153,10 @@
 		B4184664211D2B4400556341 /* instaBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				B409BCCD211E757200248A8C /* Model */,
+				B409BCC8211E683200248A8C /* Cells */,
 				B4184693211D330600556341 /* Views */,
 				B4184665211D2B4400556341 /* AppDelegate.swift */,
-				B4184667211D2B4400556341 /* ViewController.swift */,
 				B4184669211D2B4400556341 /* Main.storyboard */,
 				B418466C211D2B4600556341 /* Assets.xcassets */,
 				B418466E211D2B4600556341 /* LaunchScreen.storyboard */,
@@ -162,6 +187,9 @@
 			isa = PBXGroup;
 			children = (
 				B4184694211D333C00556341 /* LogInViewController.swift */,
+				B409BCCB211E707000248A8C /* HomeViewController.swift */,
+				B43A1292211E890000D5CFEA /* PhotoViewController.swift */,
+				B43A1294211E892B00D5CFEA /* DetailsViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -315,12 +343,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-instaBrowser/Pods-instaBrowser-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/ParseUI/ParseUI.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParseUI.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -388,9 +420,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4184668211D2B4400556341 /* ViewController.swift in Sources */,
 				B4184666211D2B4400556341 /* AppDelegate.swift in Sources */,
+				B409BCCA211E6BA300248A8C /* HomeTableViewCell.swift in Sources */,
 				B4184695211D333C00556341 /* LogInViewController.swift in Sources */,
+				B409BCCC211E707000248A8C /* HomeViewController.swift in Sources */,
+				B43A1295211E892B00D5CFEA /* DetailsViewController.swift in Sources */,
+				B409BCD1211E769600248A8C /* Post.swift in Sources */,
+				B43A1293211E890000D5CFEA /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
